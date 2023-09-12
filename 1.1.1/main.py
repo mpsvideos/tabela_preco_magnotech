@@ -9,7 +9,7 @@ Acrescentado o campo quantidade de produtos.
 No campo de pesquisa o processo é automatizado por filtragem autocomplete, a medida que o usuário digita, é exibido
 o resultado da pesquisa.
 Os valores estão com duas casas decimais e separados por vírgula.
-No formulário, o usuário tem a opção de navegar nos registros com as teclas de atalho Ctrl+End para selecionar o último registro,
+Teclas de atalho: no formulário, o usuário tem a opção de navegar nos registros com as teclas de atalho Ctrl+End para selecionar o último registro,
 Ctrl+Home para o primeiro registro e PageDown e PageUp para paginação.
 """
 
@@ -227,7 +227,7 @@ def ctrl_home(event):
 salvar_banco()
 
 app = Tk()
-app.title('Sistema de Cadastro - MagnoTech - v1.1')
+app.title('Sistema de Cadastro - MagnoTech - v1.1.1')
 
 # adicionando ícone na janela
 app.iconbitmap('celular_ico.ico')
